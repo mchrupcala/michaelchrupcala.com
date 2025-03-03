@@ -1,14 +1,313 @@
+<!DOCTYPE html>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head></head>
-  <body></body>
+  <head>
+    <title>Michael Chrupcala Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Back to the Top</a></h1>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
 
-  <script>
-    let ws;
-    const proto = window.location.protocol === "https:" ? "wss" : "ws";
-    ws = new WebSocket(`${proto}://${window.location.host}`);
+      <!-- Menu -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menu</h2>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://medium.com/@michaelchrupcala">Blog</a></li>
+            <li><a href="https://github.com/mchrupcala">GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/michaelchrupcala/"
+                >LinkedIn</a
+              >
+            </li>
+            <!-- <li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li> -->
+          </ul>
+          <a href="#" class="close">Close</a>
+        </div>
+      </nav>
 
-    ws.onmessage = (event) => {
-      console.log(event.data);
-    };
-  </script>
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <div class="logo"><span class="icon fa-gem"></span></div>
+          <!-- <div class="mike-img logo"><img src="images/headshot-circle.png"/></div> -->
+          <h2>Michael Chrupcala</h2>
+          <p>Full-Stack Web3 Software Developer</p>
+          <p>User-obsessed</p>
+          <p>
+            Experienced in React, Solidity, Angular, Redux.js, responsive
+            design, Python, AWS Cloud Practitioner-Certified, and more
+          </p>
+        </div>
+      </section>
+
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <!-- One -->
+        <section id="one" class="wrapper spotlight style1">
+          <div class="inner">
+            <a href="https://partners.skillwallet.id/" class="image"
+              ><img src="images/partners.gif" alt=""
+            /></a>
+            <div class="content">
+              <h2 class="major">SkillWallet (Partners' dashboard)</h2>
+              <p>
+                SkillWallets are NFT identities that unlock the true power of
+                Web3 Communities. Communities who partner with us can bootstrap
+                our role-based analytics and governance tools for all of their
+                members.
+              </p>
+              <!-- <p>There is a TON of useful information inside email history that is almost entirely inaccessible. Finding contacts based on conversation topics is very inefficient in email inboxes and leads to a lot of wasted time trying to locate a contact, and sometimes to no avail. We've solved this problem with Machine Learning models, suggested search functionality, and a completely re-imagined dashboard for your email messages.</p> -->
+              <a href="https://partners.skillwallet.id/" class="special"
+                >Try It</a
+              >
+              <a
+                href="https://github.com/SkillWallet/partners-app"
+                class="special"
+                >See the Code</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper alt spotlight style2">
+          <div class="inner">
+            <a href="https://app.distributed.town/" class="image"
+              ><img src="images/DiTo.gif" alt=""
+            /></a>
+            <div class="content">
+              <h2 class="major">Distributed Town</h2>
+              <p>
+                Distributed Town introduces a new financial paradigm based on
+                mutual credit. Our DITO Credits are a non-speculative currency
+                that users can exchange to incentivize work and build DAOs
+                around a shared vision.
+              </p>
+              <a href="https://app.distributed.town/" class="special">Try It</a>
+              <a
+                href="https://github.com/DistributedTown/distributed-town-frontend"
+                class="special"
+                >See the Code</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper spotlight style3">
+          <div class="inner">
+            <a href="https://tagger-fe-revert.now.sh/" class="image"
+              ><img src="images/gif1.gif" alt=""
+            /></a>
+            <div class="content">
+              <h2 class="major">Tagger</h2>
+              <p>
+                Tagger is a Gmail-powered email dashboard with a re-designed UI
+                and automated ML content-tagging. As our Front-end team lead, I
+                project-managed a remote, cross-functional team of six to design
+                the features & implement this single-page application. Built
+                using React, Node, Redux, Google Auth, SASS, CSS and HTML.
+              </p>
+              <!-- <p>There is a TON of useful information inside email history that is almost entirely inaccessible. Finding contacts based on conversation topics is very inefficient in email inboxes and leads to a lot of wasted time trying to locate a contact, and sometimes to no avail. We've solved this problem with Machine Learning models, suggested search functionality, and a completely re-imagined dashboard for your email messages.</p> -->
+              <a href="https://tagger-fe-revert.now.sh/" class="special"
+                >Try It</a
+              >
+              <a href="https://github.com/mchrupcala/tagger-fe" class="special"
+                >See the Code</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four" class="wrapper alt style1">
+          <div class="inner">
+            <h2 class="major">Side-Hustle</h2>
+            <p>
+              As the host of Cryptocopia's interview series, I've spoken with
+              more than 15 founders & CEOs of the leading companies within the
+              cryptocurrency industry. Cryptocopia is a 1,300+ member community
+              focused around fundamental discussions facing the cryptocurrency
+              and blockchain space.
+            </p>
+
+            <section class="features">
+              <article>
+                <a
+                  href="https://www.youtube.com/watch?v=UJ0hvDfgkJo"
+                  class="image"
+                  ><img src="images/Metal_AMA_Thumbnail2.FLAT.png" alt=""
+                /></a>
+                <h3 class="major">MetalPay AMA Feat. Marshall Hayner</h3>
+                <p>
+                  Metal is a blockchain-based payment processing platform with a
+                  vision to make cryptocurrency easy-to-use, easy-to-earn, and
+                  rewarding for consumers.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=UJ0hvDfgkJo"
+                  class="special"
+                  >Learn more</a
+                >
+              </article>
+              <article>
+                <a
+                  href="https://www.youtube.com/watch?v=dspDl0qTUjk"
+                  class="image"
+                  ><img src="images/Stratis_thumbtest4flat.png" alt=""
+                /></a>
+                <h3 class="major">Stratis AMA Feat. Chris Trew</h3>
+                <p>
+                  The Stratis Platform is an enterprise-grade development
+                  platform offering end-to-end solutions for native C# and .NET
+                  blockchain applications.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=dspDl0qTUjk"
+                  class="special"
+                  >Learn more</a
+                >
+              </article>
+              <article>
+                <a
+                  href="https://www.youtube.com/watch?v=h3zbeasTj-A"
+                  class="image"
+                  ><img src="images/BlockpartyThumbnail.png" alt=""
+                /></a>
+                <h3 class="major">Blockparty AMA Feat. Shiv & 3lau</h3>
+                <p>
+                  Blockparty is the leading blockchain platform for live event
+                  ticketing, fan engagement and tokenized gaming. Blockparty
+                  leverages digital identity and blockchain to bring
+                  transparency to event ticketing.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=h3zbeasTj-A"
+                  class="special"
+                  >Learn more</a
+                >
+              </article>
+              <article>
+                <a
+                  href="https://www.youtube.com/watch?v=-pPVSIxYowg"
+                  class="image"
+                  ><img src="images/CosmosThumbnail.png" alt=""
+                /></a>
+                <h3 class="major">Cosmos AMA Feat. Sunny & Chjango</h3>
+                <p>
+                  The Cosmos Network is a secure and scalable blockchain
+                  ecosystem where thousands of decentralized applications
+                  interoperate to create the foundation for a new token economy.
+                </p>
+                <a
+                  href="https://www.youtube.com/watch?v=-pPVSIxYowg"
+                  class="special"
+                  >Learn more</a
+                >
+              </article>
+            </section>
+            <ul class="actions">
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCT3tYAx2yNyQ-x0QBwfWfFQ?view_as=subscriber"
+                  class="button"
+                  >Browse All</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major">Get in touch</h2>
+          <!-- <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<form method="post" action="#"> -->
+          <!-- <div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form> -->
+          <ul class="contact">
+            <!-- <li class="icon solid fa-home">
+									Untitled Inc<br />
+									1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000
+								</li> -->
+            <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+            <li class="icon solid fa-envelope">
+              <a href="mailto:michael.chrupcala@gmail.com">Email</a>
+            </li>
+            <li class="icon brands fa-github">
+              <a href="https://github.com/mchrupcala">GitHub</a>
+            </li>
+            <li class="icon brands fa-medium">
+              <a href="https://medium.com/@michaelchrupcala">Medium Blog</a>
+            </li>
+            <li class="icon brands fa-linkedin">
+              <a href="https://www.linkedin.com/in/michaelchrupcala/"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="icon brands fa-twitter">
+              <a href="https://www.twitter.com/mikespellcheck">Twitter</a>
+            </li>
+            <li class="icon brands fa-facebook-f">
+              <a href="https://www.facebook.com/mike.chrupcala">Facebook</a>
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Untitled Inc. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
